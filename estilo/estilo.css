@@ -1,0 +1,28 @@
+body{
+    background: #749cc2;
+    background: linear-gradient(270deg, #749cc2,#91c8e4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    background: rgba(246, 244, 235, 0.37);
+    border-radius: 1rem;
+    box-shadow: 0 .25rem 1.875rem rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.25rem);
+    border: .0625rem solid rgba(246, 244, 235, 0.36);
+    width: 35%;
+    overflow: hidden;
+}
+.Hora{
+    font-size: 4rem;
+    color: #f6f4eb;
+    text-align: center;
+}
+.fecha{
+    text-align: center;
+    display: block;
+    font-size: 1rem;
+    color: #f6f4eb;
+}
